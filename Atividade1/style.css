@@ -1,0 +1,11 @@
+/* External CSS */
+body {
+    background-color: rgb(255, 209, 149);
+    color: rgb(255, 138, 118);
+    text-align: center;
+}
+
+p {
+    color: rgb(202, 119, 72);
+    text-align: justify;
+}
