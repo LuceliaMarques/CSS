@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(212, 213, 217);
+    text-align: center;
+}
+
+/* bloco de imagem em formato circular */
+.imgcirc{
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px black;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* bloco de cor sólida */
+.corsolid{
+    background-color: rgb(36, 37, 56);
+    opacity: 1;
+    display: block;
+    width: 800px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+
+/* bloco de imagem completa */
+.preen_img{
+    background-image: url(https://magazine.zarpo.com.br/wp-content/uploads/2019/03/conheca-a-rainbow-mountain-o-passeio-da-moda-no-peru.jpg);
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-style: ridge;
+    border-color: rgb(36, 37, 56);
+}
+
+/* bloco de cor transparente */
+.cortransp{
+    background-color: rgb(36, 37, 56);
+    opacity: 0.5;
+    display: block;
+    width: 800px;
+    height: 10px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    border-radius: 40%;
+}
+
+/* bloco de fundo em gradiente */
+.gradiente{
+    display: block;
+    width: 800px;
+    height: 100px;
+    background-image: linear-gradient(to right,rgb(248, 225, 131), rgb(206, 229, 212),rgb(232, 73, 117));
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+
+/* bloco de imagem com repetição */
+.repetidas{
+    background-image: url(https://images.vexels.com/media/users/3/238572/isolated/lists/f337b5ca274d8825c0dcf408dbda6474-nature-elements-66.png);
+    display: block;
+    background-repeat: repeat;
+    width: 780px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-style: dashed;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-color: rgb(232, 73, 117);
+    border-right-color: rgb(232, 73, 117);
+    border-bottom-color: rgb(248, 225, 131);
+    border-left-color: rgb(248, 225, 131);
+}
