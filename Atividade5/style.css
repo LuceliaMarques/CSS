@@ -1,0 +1,68 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url(./font/Comfortaa-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: rgb(211, 211, 211);
+    
+}
+
+.tit{
+    text-align: center;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+.box{
+    display: block;
+    background-color: rgb(252, 203, 36);
+    width: 850px;
+    height: 50px;
+    margin: 20px;
+    padding: 40px;
+    overflow: 75px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.boxdois{
+    display: inline-block;
+    background-color: rgb(252, 203, 36);
+    width: 365px;
+    height: 100px;
+    margin: 20px;
+    padding: 40px;
+    overflow: 75px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.fonteum{
+    text-decoration: underline red;
+    text-align: center;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.fontedois{
+    text-decoration: overline black;
+    text-align: center;
+    font-family: "Comfortaa";
+    font-weight: 600;
+    font-size: 15px; 
+}
+
+.verticalrl{
+    writing-mode: vertical-rl;
+}
+
+.verticallr{
+    writing-mode: vertical-lr;
+}
+
+.horizontaltb{
+    writing-mode: horizontal-tb;
+}
+
+
