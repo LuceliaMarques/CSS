@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.header{
+
+    width: 100vw;
+    height: 10vh;
+
+    border-radius: 10%;
+    border-bottom-style: solid;
+    border-color:  rebeccapurple;
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+main{
+    /* background-color: yellow; */
+
+    width: 100vw;
+    height: 80vh;
+
+    margin-top: 70px;
+}
+
+.box{
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    overflow: 75px;
+    box-shadow: 10px 10px 10px grey;
+    justify-content:center;
+    align-items:center;
+    margin-left: 510px;
+}
+
+.color1{
+    /*Hexadecimal*/
+    background-color: #8474c7;
+}
+.color2{
+    /*hexadecimal com 80% DE transparência*/
+    background-color: #AE8FDCCC;
+}
+.color3{
+    /*RGB*/
+    background-color: rgb(210, 150, 222);
+}
+.color4{
+    /*RGBA*/
+    background-color: rgba(210, 150, 222, 0.5);
+}
+.color5{
+    /*HSL*/
+    background-color:hsl(230, 50%, 70%);
+}
+.color6{
+    /*HSLA*/
+    background-color: hsla(230, 50%, 70% , 0.6)
+}
+.color7{
+    /*Cor predefinida pelo browsers*/
+    background-color: violet;
+}
+.color8{
+    /*Cor atual do elemento*/
+    background-color: #8474c7;
+    opacity: 0.5;
+}
+
+a:hover {
+    color: rgb(249, 220, 175);
+}
