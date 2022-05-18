@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@font-face {
+    font-family: 'Source CodePro', sans-serif;
+    src: url(./Font/sourcecodepro-regular-webfont.woff);
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    background-color: rgb(249, 245, 236);
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.titulo2{
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+/* fonte link do google fontes*/ 
+#fonteum{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline;
+}
+
+/* Fonte importada Woff*/
+#fontedois{
+    font-family: 'Source CodePro',  sans-serif;
+    text-decoration: underline;
+}
+
+/*bloco para texto*/
+.box{
+    display: block;
+    width: 850px;
+    height: 110px;
+    margin: 15px;
+    padding: 40px;
+    overflow: 75px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.backum{
+    background-color: rgb(246, 88, 121);
+}
+
+.backdois{
+    background-color: rgb(255, 246, 145);
+}
+
+/*estilo da lista desordenada*/
+.listadesor{
+    list-style: square;
+}
+
+/*estilo da lista ordenada*/
+.listaorden{
+    list-style: lower-latin;
+}
+
+/* link sem visitação */
+a:link {
+    color: orange;
+}
+
+/* link já visitado */
+a:visited {
+    color: pink;
+}
+
+/* link selecionado */
+a:hover {
+    color: yellow;
+}
+
+/* link ativado*/
+a:active {
+    color: green;
+}
+
+button{
+    background-color: rgb(246, 88, 121);;
+    color: rgb(255, 246, 145);
+    border: none;
+    border-radius: 5px;
+}
+button:focus{
+    color: green;
+}
