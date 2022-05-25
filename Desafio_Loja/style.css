@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(249, 249, 248);
+    
+}
+
+/* ------------------------------ HEADER ------------------------------*/
+
+.header{
+    width: 100vw;
+    height: 8vh;
+
+    border-color: rgb(61, 90, 35);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    display: flex;
+}
+
+.box_logo{
+    width: 20vw;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar{ 
+    display: flex;
+    justify-content: center;
+    width: 50vw;  
+    height: 8vh;
+}
+
+.list_one{
+    list-style: none;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black
+}
+
+li a:hover {
+    color: rgb(61, 90, 35);
+}
+
+.box_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;  
+    height: 8vh;
+}
+
+.list_two{
+    list-style: none;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* ------------------------------ MAIN ------------------------------*/
+
+.container{
+    width: 100vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_one{
+    width: 40vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
+    align-items: flex-start;
+}
+
+.container_two{
+    width: 30vw;
+    height: 70vh;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    align-items: center;
+
+    background-image: url(./img/Background.png);
+    /*Não repetir a img*/
+    background-repeat: no-repeat;
+    /*Adaptar a img*/
+    background-size:contain;
+    /*extender a img*/
+    background-clip: padding-box;
+
+}
+
+.box_one{
+    width: 40vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box_two{
+    width: 35vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.box_three{
+    width: 40vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.button_shop{
+
+    width: 10vw;
+    height: 8vh;
+
+    background-color: rgb(61, 90, 35); 
+    border-color: rgb(61, 90, 35);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: rgb(249, 249, 248);
+    color: rgb(61, 90, 35); 
+}
+
+button a{
+    color: rgb(249, 249, 248); 
+    text-decoration: none;
+}
+
+button a:hover{
+    color: rgb(61, 90, 35); 
+    text-decoration: none;
+}
+
+/* ------------------------------ FOOTER ------------------------------*/
+
+.footer{
+    width: 100vw;
+    height: 22vh;
+
+    border-color: rgb(61, 90, 35);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box_four{
+    width: 12vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_three{
+    list-style: none;
+    width: 40vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    
+}
+
+/* ------------------------------ TEXT ------------------------------*/
+
+.text_one{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: rgb(61, 90, 35);
+    font-size: 3vh;
+}
+
+.text_two{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    color: rgb(61, 90, 35);
+    font-size: 5.5vh;
+    text-align: left;
+}
+
+.text_three{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.text_four{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+    color: white;
+}
+
+li{
+    
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black
+}
+
