@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* ------------------------------ NAV ------------------------------*/
+header{
+    background:rgb(255, 255, 255, 0.3);
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: right; 
+    width: 100vw;  
+    height: 8vh;
+}
+
+.listadesor{
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(93, 109, 48);
+    font-size: 2vh;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(93, 109,48);
+    font-weight: 500;
+}
+
+li a:hover {
+    color: rgb( 166, 176, 141);
+}
+/* ------------------------------ HELLO ------------------------------*/
+#hello{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container{
+    width: 50vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center; 
+    flex-direction: column;
+}
+
+.img{
+    box-shadow: 5px 5px 5px rgb(82, 93, 106, 0.3);
+}
+
+.text_one{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(82, 93, 106);
+    font-size: 5vh;
+}
+
+.text_two{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(93, 109,48);
+    font-size: 2vh;
+}
+
+.text_three{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(82, 93, 106);
+    font-size: 2vh;
+}
+
+/* ------------------------------ ABOUT ------------------------------*/
+#about{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container_two{
+    width: 40vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    align-content: center; 
+    flex-direction: column;
+}
+
+.box_one{
+    width: 40vw;
+    height: 28vh;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    align-content: center;
+}
+
+.box_two{
+    width: 40vw;
+    height: 60vh;
+    padding-top: 45px;
+    padding-left: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:start;
+    align-content: center;
+    border-right-style:solid;
+    border-color: rgb(82, 93, 106);
+    border-width: 1px;
+}
+
+.box_three{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+}
+
+.table_one{
+    width: 35vw;
+    height: 35vh;
+    text-align: left;
+    align-items: flex-start;
+}
+
+th{
+    min-width: 2vw;
+    min-height: 20vw;
+}
+
+.border{
+    border-bottom-style: solid;
+    border-color: rgb(82, 93, 106);
+    border-width: 1px;
+}
+
+/* ---- ASIDE ---- */
+aside{
+    width: 8vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center; 
+    flex-direction: column;
+}
+
+.table_two{
+    width: 3vw;
+    height: 12vh;
+    padding-top: 15vh;
+    
+    justify-content: center;
+    align-content: center; 
+    
+}
+
+/* ------------------------------ SKILLS ------------------------------*/
+#skills{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+}
+
+.container_three{
+    width: 40vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    align-content: center; 
+    flex-direction: column;
+}
+
+.box_four{
+    width: 40vw;
+    height: 28vh;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    align-content: flex-end;
+    text-align: right;
+}
+
+.box_five{
+    width: 40vw;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    align-content: center;
+    text-align: center;
+    
+    border-right-style:solid;
+    border-color: rgb(82, 93, 106);
+    border-width: 1px;
+}
+
+th a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(93, 109,48);
+    font-weight: 500;
+}
+
+th a:hover {
+    color: rgb( 166, 176, 141);
+}
+
+.box_six{
+    width: 40vw;
+    height: 10vh;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    align-content: center;
+    text-align: center;
+    border-right-style:solid;
+    border-color: rgb(82, 93, 106);
+    border-width: 1px;
+}
+
+.box_seven{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    border-right-style:solid;
+    border-color: rgb(82, 93, 106);
+    border-width: 1px;
+}
+
+iframe{
+    border: none;
+}
+   
