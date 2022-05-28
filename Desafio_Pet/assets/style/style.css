@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Karla', sans-serif; */
+
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* <----------------------------- MENU -----------------------------> */
+
+.header{
+
+    width: 100vw;
+    height: 12vh;
+
+    background-color: rgb(255,255,255,0.9);
+
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_logo{
+                        /* background-color: brown; */
+
+    width: 25vw;
+    height: 12vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+
+    text-align: start;
+}
+
+.navbar{ 
+                        /* background-color: aqua; */
+
+    display: flex;
+    justify-content: center;
+
+    width: 75vw;  
+    height: 12vh;
+}
+
+.list_one{
+    list-style: none;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
+    color: #a0a0a0;
+}
+
+li a:hover {
+    color: #297692;
+}
+
+/* <----------------------------- HOME -----------------------------> */
+
+.home{
+
+    background-image: url(../img/Animal_01.png\ 5x.png);
+    /*Não repetir a img*/
+    background-repeat: no-repeat;
+    /*Adaptar a img*/
+    background-size: cover;
+    /*extender a img*/
+    background-clip: padding-box;
+
+    width: 100vw;
+    height: 130vh;
+    
+}
+
+.box_one{
+    
+    background-color: #a0a0a066;
+
+    width: 35vw;
+    height: 130vh;
+
+    padding-left: 15vw;
+    padding-right: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+
+button{
+    background-color: #F56A56;
+    color: #FFFFFF;
+
+    border: none;
+    text-decoration: none;
+
+    width: 30vh;
+    height: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: rgb(247, 60, 32); 
+}
+
+button a{
+    color: rgb(249, 249, 248); 
+    text-decoration: none;
+}
+
+button a:hover{ 
+    text-decoration: none;
+}
+
+/* <----------------------------- SERVICES -----------------------------> */
+
+.services{
+
+    width: 100vw;
+    height: 75vh;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.box_two{
+    
+    /* UTILIZADO TAMBÉM NA SEÇÃO SOBRE | CONTATO */
+
+    background-color: #a0a0a066;
+
+    width: 35vw;
+    height: 75vh;
+
+    padding-top: 10vh;
+    padding-left: 15vw;
+    padding-right: 2vw;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+}
+
+.block_one{
+
+    height: 75vh;
+    width: 25vw;
+
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* <----------------------------- SOBRE -----------------------------> */
+
+.sobre{
+    
+    background-image: url(../img/background_01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+
+    width: 100vw;
+    height: 75vh;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block_two{
+
+    height: 75vh;
+    width: 55vw;
+
+    padding-left: 5vw;
+    padding-right: 2vw;
+    padding-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+
+}
+
+/* <----------------------------- CONTATO -----------------------------> */
+
+.contato{
+
+    width: 100vw;
+    height: 150vh;
+
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    flex-direction: row;
+}
+
+.container_contact{
+    
+    width: 65vw;
+    height: 150vh;
+
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+.box_contact{
+    width: 65vw;
+    height: 35vh;
+
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    flex-direction: row;
+}
+
+.box_three{
+
+    width: 30vw;
+    height: 35vh;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 10vh;
+}
+
+.container_mapa{
+
+    width: 65vw;
+    height: 40vh;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 4vh;
+
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.maps{
+    border-style: ridge;
+    border-color: #FFFFFF;
+    border-width: 2px;
+
+    width: 40vw;
+    height: 30vh;
+}
+
+
+.container_form{ 
+    width: 65vw;
+    height: 40vh;
+
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 4vh;
+}
+
+.row{
+
+    height: 25vh;
+    width: 30vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.form_left{
+
+    height: 25vh;
+    width: 20vw;
+
+}
+
+.form_left input[type="text"], 
+.form_left input[type="email"], 
+.form_left input[type="number"],
+.form_right textarea
+{
+   
+	background: rgba(255,255,255,.1);
+	border: none;
+	font-size: 15px;
+	margin-bottom: 1vh;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	background-color: #e8eeef;
+	color:#8a97a0;
+}
+
+.form_right{            background-color: aqua;
+
+    height: 25vh;
+    width: 20vw;
+
+    padding-left: 5vw;
+}
+
+.form_right textarea{
+    background: rgba(255,255,255,.1);
+	border: none;
+	font-size: 15px;
+	margin-bottom: 1vh;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	background-color: #e8eeef;
+	color:#8a97a0;
+}
+
+
+/* <----------------------------- TEXTOS -----------------------------> */
+
+        /* MENU */
+
+.text_bold{
+    font-weight: 700;
+    font-size: 3vh;
+}
+
+.color_red{
+    color: #EC4A34;
+}
+
+.text_regular{
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.text_one{
+    font-weight: 400;
+    font-size: 2vh;
+    color: #a0a0a0;
+}
+
+        /* HOME */
+
+.text_tamanho{
+
+    font-size: 5vh;
+}
+
+        /* SERVICOS */
+
+.title_services{
+    padding-bottom: 1vw;
+
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(85, 85, 85);
+}
+
+.text_services{
+    padding-bottom: 2vw; 
+}
+
+        /* SOBRE */   
+
+.text_sobre{
+    
+    color: white;
+    padding-bottom: 2vw; 
+    padding-right: 10vw;
+}
+
+        /* CONTATO */
+
+.text_font{
+    font-family: sans-serif;
+}
