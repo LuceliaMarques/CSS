@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/img8.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box; 
+    background-attachment: fixed;
+}
+
+/* <----------------------------- MENU -----------------------------> */
+
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(54,46,38);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.list_one{
+    list-style: none;
+    width: 100vw;
+    padding-right: 22vw;
+    padding-left: 22vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 2vh;
+    color: #fff;
+}
+
+li a:hover {
+    color: rgb( 218, 210, 202);
+}
+
+/* <----------------------------- HOME -----------------------------> */
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb( 0, 0, 0, 0.2);
+}
+
+/* <----------------------------- SOBRE -----------------------------> */
+
+#sobre{
+    background-image: url(../img/background_two.webp);
+    background-repeat: repeat;
+    background-size: auto;
+    background-clip: padding-box;
+    background-color: rgb( 231, 133, 133);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box_left_center{
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.box_rigth{
+    width: 36vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <----------------------------- SABORES -----------------------------> */
+
+#sabores{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <----------------------------- QUEM FAZ -----------------------------> */
+
+#quem_faz{
+    background-image: url(../img/background_three.webp);
+    background-repeat: repeat;
+    background-size: auto;
+    background-clip: padding-box;
+    background-color: rgb( 112, 186, 190);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_left_row{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    z-index: 0;
+}
+
+/* <----------------------------- CONTATOS -----------------------------> */
+
+#footer{
+    background-color: rgb(54,46,38);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.list_two{
+    list-style: none;
+    width: 10vw;
+    padding-top: 4vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form{
+    width: 30vw;
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.form input[type="text"], 
+.form input[type="email"], 
+.form input[type="number"]{
+	background-color: rgba( 81, 69, 57);
+	border: none;
+	margin-bottom: 1vh;
+	padding: 10px;
+	width: 100%;
+    height: 5vh;
+}
+
+.form textarea{
+    background-color: rgba( 81, 69, 57);
+	border: none;
+	font-size: 15px;
+	margin-bottom: 1vh;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+    height: 15vh;
+    resize: none;
+}
+
+.form input[type="text"]::placeholder, 
+.form input[type="email"]::placeholder, 
+.form input[type="number"]::placeholder,
+.form textarea::placeholder{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: left;
+    color:#fff;
+}
+
+.form input[type="text"]:hover, 
+.form input[type="email"]:hover, 
+.form input[type="number"]:hover,
+.form textarea:hover{
+    border: 1px solid #fff;
+}
+
+.button[type="submit"]{
+    width: 7vw;
+    height: 5vh;
+    background-image: linear-gradient(to bottom, rgb( 144, 132, 121) 0, rgb( 144, 132, 121) 50%, rgb( 102, 87, 73)50%);
+    text-align: center;
+    border: none;
+    font-size: 2vh;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button[type="submit"]:hover {
+    background-color:#fff;
+    transition: 0.2s;
+}
+
+.baseboard{
+    background-color: rgb(54,46,38);
+    width: 100vw;
+    height: 15vh;
+}
+
+/* <----------------------------- TEXTOS -----------------------------> */
+
+.title_one{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cookie', cursive;
+    font-weight: 200;
+    font-size: 25vh;
+    color: #fff;
+}
+
+.title_two{
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5vw;
+    font-weight: 200;
+    font-size: 4vh;
+    color: #fff;
+}
+
+.title_three{  
+    width: 18vw;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 4vh;
+}
+
+.title_four{
+    padding-bottom: 5vh;
+    font-weight: 600;
+    font-size: 4vh;
+}
+
+.space_width{
+    width: 15vw;
+}
+
+.text_one{
+    padding-bottom: 2vh;
+    font-size: 2vh;
+    font-weight: 300;
+    text-align: left;
+}
+
+.text_two{
+    width: 50vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.color_white{
+    color: #fff;
+}
+
+.color_black{
+    color: #000;
+}
+
+.color_one{
+    color: rgb( 144, 132, 121)
+}
+
+.center{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
